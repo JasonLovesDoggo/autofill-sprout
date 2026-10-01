@@ -30,6 +30,4 @@ open "build/AutoFill Sprout.app"
 
 The only credential is `synthetic-user` / `synthetic-password` for `http://localhost:9876`. If accepted by macOS, “Publish test identity” adds that synthetic identity to this app's AutoFill store. The bundled provider returns only that fake credential.
 
-Apple documents the [AutoFill entitlement](https://developer.apple.com/documentation/bundleresources/entitlements/com.apple.developer.authentication-services.autofill-credential-provider) and why [restricted entitlements need a provisioning profile](https://developer.apple.com/documentation/technotes/tn3125-inside-code-signing-provisioning-profiles). We have not demonstrated a membership-free native AutoFill route that preserves SIP.
-
 MIT licensed.
